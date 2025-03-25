@@ -27,8 +27,16 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        sumaMarco()
     }
 }
+fun sumaMarco(){
+    val a = 1
+    val b = 2
+    val result = a+b
+    println(result)
+}
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
